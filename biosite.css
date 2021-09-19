@@ -1,0 +1,124 @@
+/*
+Mick Welisevich
+19 Sept 2021
+Module 7 Assignment 2
+
+Color Palette
+“Blush” #DDB6AD
+“Fern” #8C9D85 
+“Burgundy” #71293B 
+“Navy Blue” #1F3850 
+“Cream” #EADDDA
+*/
+
+header{
+    background-color: #DDB6AD;
+    color: #1F3850;
+    padding: 5px;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    background-color: #EADDDA;
+}
+
+h1{
+    font-weight: 400;
+}
+
+
+
+#navbar{
+    overflow: hidden;
+    background-color: #EADDDA ;
+    border-bottom: 10px solid #71293B ;
+}
+
+#navbar a{
+    float: left;
+    display: block;
+    color: #1F3850  ;
+    text-align: center;
+    text-decoration: none;
+}
+
+#tab1, #tab2, #tab3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+#tab3{margin-right: 0%;}
+
+#navbar a:hover{
+    text-decoration: underline;
+}
+
+#container{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.image-gallery{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
+}
+
+#img1 {
+    grid-column: 1/2;
+    grid-row: 1;
+}
+#img2 {
+    grid-column: 2/3;
+    grid-row: 1;
+}
+#img3 {
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+#portrait{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+    border: 5px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+#imgLayout1{
+    grid-column: 1;
+    grid-row: 1/2;
+}
+
+#imgLayout2{
+    float:right;
+    grid-column: 1;
+    grid-row: 2/3;
+}
+
+.hobby{
+    float:left;
+}
+
+.hobby2{
+    float: right;
+}
+
+#imgLayout3{
+    grid-column: 1;
+    grid-row: 3/4;
+}
+
+img {
+    height: 400px;
+    width: 350px;
+}
