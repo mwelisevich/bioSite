@@ -1,7 +1,7 @@
 /*
 Mick Welisevich
-19 Sept 2021
-Module 7 Assignment 2
+26 Sept 2021
+Module 8 Assignment 2
 
 Color Palette
 “Blush” #DDB6AD
@@ -27,8 +27,6 @@ body{
 h1{
     font-weight: 400;
 }
-
-
 
 #navbar{
     overflow: hidden;
@@ -100,17 +98,39 @@ figcaption{
 }
 
 #imgLayout2{
-    float:right;
+    /*float:right;*/
     grid-column: 1;
     grid-row: 2/3;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
 }
 
 .hobby{
     float:left;
 }
 
-.hobby2{
+#hobby2img{
+    grid-column:4/6;
+    grid-row:1/4;
+}
+
+#hobby2title{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#hobby2text{
+    grid-column: 1/3;
+    grid-row: 2;
     float: right;
+    text-align: right;
+}
+
+#hobby2{
+    float:right;
+    clear: left;
 }
 
 #imgLayout3{
@@ -121,4 +141,11 @@ figcaption{
 img {
     height: 400px;
     width: 350px;
+}
+
+footer{
+    background-color: #EADDDA;
+    border-top: 10px solid #8C9D85;
+    Text-align: center;
+    color: #8C9D85;
 }
