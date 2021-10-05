@@ -1,11 +1,10 @@
 /*
 Mick Welisevich
-26 Sept 2021
-Module 8 Assignment 2
+5 Oct 2021
+Module 12 Assignment 2
 
 Color Palette
 “Blush” #DDB6AD
-“Fern” #8C9D85 
 “Burgundy” #71293B 
 “Navy Blue” #1F3850 
 “Cream” #EADDDA
@@ -84,7 +83,7 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 32%;
+    width: 35%;
     border: 5px;
 }
 
@@ -141,11 +140,12 @@ figcaption{
 img {
     height: 400px;
     width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 footer{
     background-color: #EADDDA;
-    border-top: 10px solid #8C9D85;
+    border-top: 10px solid #71293B ;
     Text-align: center;
-    color: #8C9D85;
+    color: #1F3850 ;
 }
